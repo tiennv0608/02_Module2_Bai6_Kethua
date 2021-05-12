@@ -1,3 +1,7 @@
+package point2D.point3D;
+
+import point2D.Point2D;
+
 public class Point3DTest {
     public static void main(String[] args) {
         Point3D point1 = new Point3D();

@@ -1,4 +1,8 @@
-public class Point3D extends Point2D{
+package point2D.point3D;
+
+import point2D.Point2D;
+
+public class Point3D extends Point2D {
     private float z;
 
     public Point3D() {

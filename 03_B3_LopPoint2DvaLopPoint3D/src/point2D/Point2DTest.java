@@ -1,3 +1,5 @@
+package point2D;
+
 public class Point2DTest {
     public static void main(String[] args) {
         Point2D obj1 = new Point2D();
