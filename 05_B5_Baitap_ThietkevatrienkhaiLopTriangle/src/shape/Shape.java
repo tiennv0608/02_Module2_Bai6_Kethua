@@ -1,3 +1,5 @@
+package shape;
+
 public class Shape {
     private String color = "blue";
     private boolean filled = true;
@@ -28,8 +30,6 @@ public class Shape {
 
     @Override
     public String toString() {
-        return "A shape with color is "+ color + '\'' +
-                ", filled=" + filled +
-                '}';
+        return "Color is "+ color + " and " +(this.filled ? "filled" : "nofilled");
     }
 }
