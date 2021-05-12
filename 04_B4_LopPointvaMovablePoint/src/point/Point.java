@@ -38,7 +38,7 @@ public class Point {
 
     @Override
     public String toString() {
-        return "Point.Point starts from x = " + x +
+        return "Point starts from x = " + x +
                 ", y = " + y;
     }
 }
